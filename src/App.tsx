@@ -1,13 +1,14 @@
-import React from 'react';
-
-import Factorial from './useMemo';
-
+import React, { useState } from "react";
+import "./light.css";
+import "./App.css";
+import SimpleHookEg from "./simpleHookEg";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Factorial />
-    </div>
-  )
-}
+    <>
+      <SimpleHookEg />
+    </>
+  );
+};
+
 export default App;
